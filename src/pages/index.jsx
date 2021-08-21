@@ -5,8 +5,8 @@ import { PageWrapper } from '@layout'
 
 const index = () => {
     return (
-        <PageWrapper>
-            <Home title='Home' />
+        <PageWrapper title='Home'>
+            <Home />
         </PageWrapper>
     )
 }
