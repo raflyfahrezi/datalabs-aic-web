@@ -8,10 +8,10 @@ const home = () => {
 
     return (
         <ComponentWrapper>
-            <div className='w-full h-60 grid place-items-center'>
+            <div className='w-full h-60 grid place-items-center text-center'>
                 <div>
                     <Heading1>Learn Something New Here</Heading1>
-                    <Paragraph className='text-gray-400'>
+                    <Paragraph className='text-gray-400 mt-4'>
                         {appDescription}
                     </Paragraph>
                 </div>
