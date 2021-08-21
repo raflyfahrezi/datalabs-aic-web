@@ -2,10 +2,12 @@ import React from 'react'
 import { NextSeo } from 'next-seo'
 
 const head = ({ title }) => {
+    const appName = process.env.NEXT_PUBLIC_APP_NAME
+    const appDescription = process.env.NEXT_PUBLIC_APP_DESCRIPTION
+
     const defaultTitle = 'Oops'
-    const titleTemplate = '%s | DataLabs Courses'
-    const description =
-        'DataLabs Courses is a platform that have a lot of courses that can increase your IT Skills.'
+    const titleTemplate = `%s | ${appName}`
+    const description = appDescription
 
     return (
         <NextSeo
