@@ -6,7 +6,7 @@ import { PageWrapper } from '@layout'
 const index = () => {
     return (
         <PageWrapper>
-            <Home />
+            <Home title='Home' />
         </PageWrapper>
     )
 }
