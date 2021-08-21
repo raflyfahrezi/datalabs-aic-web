@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ComponentWrapper } from '@components'
+import { TextField, ComponentWrapper } from '@components'
 import { Heading1, Paragraph } from '@typography'
 
 const home = () => {
@@ -8,12 +8,13 @@ const home = () => {
 
     return (
         <ComponentWrapper>
-            <div className='w-full h-60 grid place-items-center text-center'>
+            <div className='w-full h-72 grid place-items-center text-center'>
                 <div>
                     <Heading1>Learn Something New Here</Heading1>
-                    <Paragraph className='text-gray-400 mt-4'>
+                    <Paragraph className='text-gray-400 m-4'>
                         {appDescription}
                     </Paragraph>
+                    <TextField className='mt-2' />
                 </div>
             </div>
         </ComponentWrapper>
