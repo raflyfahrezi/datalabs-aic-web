@@ -1,10 +1,13 @@
 import React from 'react'
 
+import { Home } from '@modules'
+import { PageWrapper } from '@layout'
+
 const index = () => {
     return (
-        <div className='text-center pt-10'>
-            <p className='text-2xl font-bold capitalize'>hello world</p>
-        </div>
+        <PageWrapper title='Home'>
+            <Home />
+        </PageWrapper>
     )
 }
 
