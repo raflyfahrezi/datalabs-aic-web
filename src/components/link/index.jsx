@@ -18,4 +18,8 @@ const link = ({ href, children, external }) => {
     )
 }
 
+link.defaultProps = {
+    href: '/',
+}
+
 export default link
