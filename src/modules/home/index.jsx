@@ -14,7 +14,10 @@ const home = () => {
                     <Paragraph className='text-gray-400 m-4'>
                         {appDescription}
                     </Paragraph>
-                    <TextField className='mt-2' />
+                    <TextField
+                        placeholder='Search courses'
+                        className='mt-2 w-full max-w-md'
+                    />
                 </div>
             </div>
         </ComponentWrapper>
