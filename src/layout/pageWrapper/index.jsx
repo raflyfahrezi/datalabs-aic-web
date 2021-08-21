@@ -9,7 +9,7 @@ const pageWrapper = ({ title, children }) => {
             <Head title={title} />
             <div>
                 <Navigation />
-                <div>{children}</div>
+                <main>{children}</main>
             </div>
         </>
     )
