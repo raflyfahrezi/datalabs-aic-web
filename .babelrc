@@ -10,6 +10,7 @@
                     "@assets": "./src/assets",
                     "@layout": "./src/layout",
                     "@modules": "./src/modules",
+                    "@typography": "./src/typography",
                     "@components": "./src/components"
                 }
             }
