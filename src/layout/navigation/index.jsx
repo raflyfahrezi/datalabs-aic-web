@@ -4,7 +4,7 @@ import { Paragraph } from '@typography'
 
 const navigation = () => {
     return (
-        <div className='w-full px-6 py-4 flex justify-between'>
+        <div className='w-full px-6 py-4 flex align-middle justify-between'>
             <div>
                 <p>Logo</p>
             </div>
