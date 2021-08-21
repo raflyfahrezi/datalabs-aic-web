@@ -4,11 +4,11 @@ import { Paragraph } from '@typography'
 
 const navigation = () => {
     return (
-        <div>
+        <div className='w-full px-6 py-4 flex justify-between'>
             <div>
                 <p>Logo</p>
             </div>
-            <div>
+            <div className='grid grid-flow-col gap-4'>
                 <div>
                     <Paragraph>Home</Paragraph>
                 </div>
