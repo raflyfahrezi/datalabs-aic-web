@@ -3,10 +3,10 @@ import React from 'react'
 import Head from '../head'
 import Navigation from '../navigation'
 
-const pageWrapper = ({ children }) => {
+const pageWrapper = ({ title, children }) => {
     return (
         <>
-            <Head />
+            <Head title={title} />
             <div>
                 <Navigation />
                 <div>{children}</div>
