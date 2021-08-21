@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { Link } from '@components'
 import { Paragraph } from '@typography'
 
 const navigation = () => {
@@ -9,15 +10,15 @@ const navigation = () => {
                 <p>Logo</p>
             </div>
             <div className='grid grid-flow-col gap-4'>
-                <div>
+                <Link href='/'>
                     <Paragraph>Home</Paragraph>
-                </div>
-                <div>
+                </Link>
+                <Link href='/'>
                     <Paragraph>Log In</Paragraph>
-                </div>
-                <div>
+                </Link>
+                <Link href='/'>
                     <Paragraph>Sign Up</Paragraph>
-                </div>
+                </Link>
             </div>
         </div>
     )
