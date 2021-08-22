@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import { TextField, ComponentWrapper } from '@components'
 import { Heading1, Heading2, Paragraph } from '@typography'
 
-const home = () => {
+const home = ({ coursesList }) => {
     const appDescription = process.env.NEXT_PUBLIC_APP_DESCRIPTION
+
+    const [keys] = useState(Object.keys(coursesList))
 
     return (
         <ComponentWrapper>
@@ -19,8 +21,18 @@ const home = () => {
                         className='mt-2 w-full max-w-md'
                     />
                 </div>
+            </div>
+            <div>
+                <Heading2>Courses List</Heading2>
                 <div>
-                    <Heading2>Courses List</Heading2>
+                    {keys.length > 0 &&
+                        keys.map((item, index) => {
+                            return (
+                                <Paragraph key={index}>
+                                    {coursesList[item].id}
+                                </Paragraph>
+                            )
+                        })}
                 </div>
             </div>
         </ComponentWrapper>
