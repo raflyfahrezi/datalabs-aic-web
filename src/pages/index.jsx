@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Home } from '@modules'
 import { PageWrapper } from '@layout'
+import { coursesList } from '@assets'
 
 const index = ({ coursesList }) => {
     return (
@@ -12,8 +13,6 @@ const index = ({ coursesList }) => {
 }
 
 const getStaticProps = async () => {
-    import { coursesList } from '@assets'
-
     return {
         props: { coursesList },
         revalidate: 1000,
