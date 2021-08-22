@@ -34,7 +34,7 @@ const home = ({ coursesList }) => {
                             } = coursesList[item]
 
                             return (
-                                <Card
+                                <CourseCard
                                     key={index}
                                     text1={course_title}
                                     text3={course_rating}
