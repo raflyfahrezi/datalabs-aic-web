@@ -31,14 +31,16 @@ const home = ({ coursesList }) => {
                                 course_title,
                                 course_rating,
                                 course_organization,
+                                course_students_enrolled,
                             } = coursesList[item]
 
                             return (
                                 <CourseCard
                                     key={index}
-                                    text1={course_title}
-                                    text3={course_rating}
-                                    text2={course_organization}
+                                    title={course_title}
+                                    rating={course_rating}
+                                    subTitle={course_organization}
+                                    students={course_students_enrolled}
                                 />
                             )
                         })}
