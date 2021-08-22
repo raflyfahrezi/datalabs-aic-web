@@ -2,5 +2,5 @@ import Link from './link'
 import TextField from './textField'
 import ComponentWrapper from './componentWrapper'
 
-export { Link, Card, TextField, ComponentWrapper }
+export { Link, TextField, ComponentWrapper }
 export * from './card'
