@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { Card, TextField, ComponentWrapper } from '@components'
+import { CourseCard, TextField, ComponentWrapper } from '@components'
 import { Heading1, Heading2, Paragraph } from '@typography'
 
 const home = ({ coursesList }) => {

@@ -1,3 +1,3 @@
-import CoursesCard from './coursesCard'
+import CourseCard from './courseCard'
 
-export { CoursesCard }
+export { CourseCard }

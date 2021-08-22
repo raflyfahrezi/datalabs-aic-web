@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Paragraph } from '@typography'
 
-const coursesCard = ({ text1, text2, text3 }) => {
+const courseCard = ({ text1, text2, text3 }) => {
     return (
         <div className='border-2 border-gray-600 rounded'>
             <div className='w-full h-40 bg-gray-300'></div>
@@ -15,4 +15,4 @@ const coursesCard = ({ text1, text2, text3 }) => {
     )
 }
 
-export default coursesCard
+export default courseCard
