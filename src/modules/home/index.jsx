@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { TextField, ComponentWrapper } from '@components'
+import { Card, TextField, ComponentWrapper } from '@components'
 import { Heading1, Heading2, Paragraph } from '@typography'
 
 const home = ({ coursesList }) => {
@@ -24,13 +24,22 @@ const home = ({ coursesList }) => {
             </div>
             <div>
                 <Heading2>Courses List</Heading2>
-                <div>
+                <div className='grid grid-rows-3 gap-3'>
                     {keys.length > 0 &&
                         keys.map((item, index) => {
+                            const {
+                                course_title,
+                                course_rating,
+                                course_organization,
+                            } = coursesList[item]
+
                             return (
-                                <Paragraph key={index}>
-                                    {coursesList[item].id}
-                                </Paragraph>
+                                <Card
+                                    key={index}
+                                    text1={course_title}
+                                    text3={course_rating}
+                                    text2={course_organization}
+                                />
                             )
                         })}
                 </div>
