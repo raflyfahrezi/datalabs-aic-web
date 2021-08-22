@@ -24,7 +24,7 @@ const home = ({ coursesList }) => {
             </div>
             <div>
                 <Heading2>Courses List</Heading2>
-                <div className='grid grid-cols-coursesList gap-3 mt-3'>
+                <div className='grid grid-cols-coursesList gap-5 mt-3'>
                     {keys.length > 0 &&
                         keys.map((item, index) => {
                             const {
