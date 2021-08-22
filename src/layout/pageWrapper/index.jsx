@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Head from '../head'
+import Footer from '../footer'
 import Navigation from '../navigation'
 
 const pageWrapper = ({ title, children }) => {
@@ -10,6 +11,7 @@ const pageWrapper = ({ title, children }) => {
             <div>
                 <Navigation />
                 <main>{children}</main>
+                <Footer />
             </div>
         </>
     )

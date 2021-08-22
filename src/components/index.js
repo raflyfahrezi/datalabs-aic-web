@@ -3,3 +3,4 @@ import TextField from './textField'
 import ComponentWrapper from './componentWrapper'
 
 export { Link, TextField, ComponentWrapper }
+export * from './card'

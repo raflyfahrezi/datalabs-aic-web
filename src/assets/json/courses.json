@@ -1,0 +1,254 @@
+[
+    {
+        "id": 134,
+        "course_title": "(ISC)² Systems Security Certified Practitioner (SSCP)",
+        "course_organization": "(ISC)²",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.7,
+        "course_difficulty": "Beginner",
+        "course_students_enrolled": "5.3k"
+    },
+    {
+        "id": 743,
+        "course_title": "A Crash Course in Causality:  Inferring Causal Effects from Observational Data",
+        "course_organization": "University of Pennsylvania",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.7,
+        "course_difficulty": "Intermediate",
+        "course_students_enrolled": "17k"
+    },
+    {
+        "id": 874,
+        "course_title": "A Crash Course in Data Science",
+        "course_organization": "Johns Hopkins University",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.5,
+        "course_difficulty": "Mixed",
+        "course_students_enrolled": "130k"
+    },
+    {
+        "id": 413,
+        "course_title": "A Law Student's Toolkit",
+        "course_organization": "Yale University",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.7,
+        "course_difficulty": "Mixed",
+        "course_students_enrolled": "91k"
+    },
+    {
+        "id": 635,
+        "course_title": "A Life of Happiness and Fulfillment",
+        "course_organization": "Indian School of Business",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.8,
+        "course_difficulty": "Mixed",
+        "course_students_enrolled": "320k"
+    },
+    {
+        "id": 661,
+        "course_title": "ADHD: Everyday Strategies for Elementary Students",
+        "course_organization": "University at Buffalo",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.7,
+        "course_difficulty": "Beginner",
+        "course_students_enrolled": "39k"
+    },
+    {
+        "id": 54,
+        "course_title": "AI For Everyone",
+        "course_organization": "deeplearning.ai",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.8,
+        "course_difficulty": "Beginner",
+        "course_students_enrolled": "350k"
+    },
+    {
+        "id": 488,
+        "course_title": "AI For Medical Treatment",
+        "course_organization": "deeplearning.ai",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.8,
+        "course_difficulty": "Intermediate",
+        "course_students_enrolled": "2.4k"
+    },
+    {
+        "id": 58,
+        "course_title": "AI Foundations for Everyone",
+        "course_organization": "IBM",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.7,
+        "course_difficulty": "Beginner",
+        "course_students_enrolled": "61k"
+    },
+    {
+        "id": 129,
+        "course_title": "AI for Medical Diagnosis",
+        "course_organization": "deeplearning.ai",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.7,
+        "course_difficulty": "Intermediate",
+        "course_students_enrolled": "12k"
+    },
+    {
+        "id": 283,
+        "course_title": "AI for Medical Prognosis",
+        "course_organization": "deeplearning.ai",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.6,
+        "course_difficulty": "Intermediate",
+        "course_students_enrolled": "4k"
+    },
+    {
+        "id": 35,
+        "course_title": "AI for Medicine",
+        "course_organization": "deeplearning.ai",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.7,
+        "course_difficulty": "Intermediate",
+        "course_students_enrolled": "13k"
+    },
+    {
+        "id": 43,
+        "course_title": "AWS Fundamentals",
+        "course_organization": "Amazon Web Services",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.6,
+        "course_difficulty": "Beginner",
+        "course_students_enrolled": "130k"
+    },
+    {
+        "id": 631,
+        "course_title": "AWS Fundamentals: Addressing Security Risk",
+        "course_organization": "Amazon Web Services",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.3,
+        "course_difficulty": "Beginner",
+        "course_students_enrolled": "11k"
+    },
+    {
+        "id": 861,
+        "course_title": "AWS Fundamentals: Building Serverless Applications",
+        "course_organization": "Amazon Web Services",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.7,
+        "course_difficulty": "Beginner",
+        "course_students_enrolled": "27k"
+    },
+    {
+        "id": 281,
+        "course_title": "AWS Fundamentals: Going Cloud-Native",
+        "course_organization": "Amazon Web Services",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.7,
+        "course_difficulty": "Beginner",
+        "course_students_enrolled": "110k"
+    },
+    {
+        "id": 828,
+        "course_title": "AWS Fundamentals: Migrating to the Cloud",
+        "course_organization": "Amazon Web Services",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.5,
+        "course_difficulty": "Intermediate",
+        "course_students_enrolled": "13k"
+    },
+    {
+        "id": 819,
+        "course_title": "Aboriginal Worldviews and Education",
+        "course_organization": "University of Toronto",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.7,
+        "course_difficulty": "Mixed",
+        "course_students_enrolled": "6.6k"
+    },
+    {
+        "id": 142,
+        "course_title": "Accelerated Computer Science Fundamentals",
+        "course_organization": "University of Illinois at Urbana-Champaign",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.7,
+        "course_difficulty": "Intermediate",
+        "course_students_enrolled": "22k"
+    },
+    {
+        "id": 612,
+        "course_title": "Access Controls",
+        "course_organization": "(ISC)²",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.6,
+        "course_difficulty": "Beginner",
+        "course_students_enrolled": "2.9k"
+    },
+    {
+        "id": 604,
+        "course_title": "Accounting Analytics",
+        "course_organization": "University of Pennsylvania",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.5,
+        "course_difficulty": "Mixed",
+        "course_students_enrolled": "80k"
+    },
+    {
+        "id": 727,
+        "course_title": "Accounting for Decision Making",
+        "course_organization": "University of Michigan",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.8,
+        "course_difficulty": "Intermediate",
+        "course_students_enrolled": "9.9k"
+    },
+    {
+        "id": 51,
+        "course_title": "Achieving Personal and Professional Success",
+        "course_organization": "University of Pennsylvania",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.7,
+        "course_difficulty": "Beginner",
+        "course_students_enrolled": "110k"
+    },
+    {
+        "id": 838,
+        "course_title": "Actualización en el manejo del paciente con diabetes mellitus tipo 2",
+        "course_organization": "Universidad Nacional Autónoma de México",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.8,
+        "course_difficulty": "Mixed",
+        "course_students_enrolled": "23k"
+    },
+    {
+        "id": 330,
+        "course_title": "Addiction Treatment: Clinical Skills for Healthcare Providers",
+        "course_organization": "Yale University",
+        "course_Certificate_type": "COURSE",
+        "course_rating": 4.8,
+        "course_difficulty": "Beginner",
+        "course_students_enrolled": "9.2k"
+    },
+    {
+        "id": 247,
+        "course_title": "Advanced Business Analytics",
+        "course_organization": "University of Colorado Boulder",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Intermediate",
+        "course_students_enrolled": "78k"
+    },
+    {
+        "id": 157,
+        "course_title": "Advanced Data Science with IBM",
+        "course_organization": "IBM",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.4,
+        "course_difficulty": "Advanced",
+        "course_students_enrolled": "320k"
+    },
+    {
+        "id": 103,
+        "course_title": "Advanced Machine Learning",
+        "course_organization": "National Research University Higher School of Economics",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Advanced",
+        "course_students_enrolled": "190k"
+    }
+]
