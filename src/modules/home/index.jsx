@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { TextField, ComponentWrapper } from '@components'
-import { Heading1, Paragraph } from '@typography'
+import { Heading1, Heading2, Paragraph } from '@typography'
 
 const home = () => {
     const appDescription = process.env.NEXT_PUBLIC_APP_DESCRIPTION
@@ -18,6 +18,9 @@ const home = () => {
                         placeholder='Search courses'
                         className='mt-2 w-full max-w-md'
                     />
+                </div>
+                <div>
+                    <Heading2>Courses List</Heading2>
                 </div>
             </div>
         </ComponentWrapper>
