@@ -21,6 +21,7 @@ const chatbot = () => {
         const chat = { type: 'user', message }
 
         setChatHistory([...chatHistory, { ...chat }])
+        setMessage('')
     }
 
     return (
@@ -31,6 +32,7 @@ const chatbot = () => {
                 </div>
                 <form onSubmit={sendMessageHandler} className='py-6 flex'>
                     <TextField
+                        value={message}
                         className='w-full'
                         placeholder='Enter a message'
                         onChange={messageChangeHandler}
