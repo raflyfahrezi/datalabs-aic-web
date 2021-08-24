@@ -5,7 +5,7 @@ import { Chat } from '@components'
 
 const box = ({ chatHistory }) => {
     return (
-        <div className='w-full h-full'>
+        <div className='w-full flex flex-col'>
             {/* Greeting Messages */}
             <div className='py-6'>
                 <motion.div
@@ -21,12 +21,19 @@ const box = ({ chatHistory }) => {
             </div>
 
             {/* User and Bot Messages */}
-            <div>
+            <div className='min-h-0 p-2 flex flex-col gap-2 overflow-x-hidden'>
                 {chatHistory.map((item, index) => {
                     return (
-                        <Chat key={index} type='user'>
-                            {item.message}
-                        </Chat>
+                        <motion.div
+                            initial={{ opacity: 0, x: 20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            key={index}
+                            className={`w-full flex ${
+                                item.type === 'user' && 'justify-end'
+                            }`}
+                        >
+                            <Chat type={item.type}>{item.message}</Chat>
+                        </motion.div>
                     )
                 })}
             </div>
