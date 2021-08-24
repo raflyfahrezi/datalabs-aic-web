@@ -9,9 +9,9 @@ const pageWrapper = ({ title, children }) => {
         <>
             <Head title={title} />
             <div className='w-full min-h-screen grid grid-rows-pageWrapper'>
-                <div>
+                <div className='w-full h-full'>
                     <Navigation />
-                    <main>{children}</main>
+                    <main className='w-full h-full'>{children}</main>
                 </div>
                 <Footer />
             </div>
