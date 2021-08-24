@@ -22,7 +22,7 @@ const chat = ({ type, children }) => {
     if (type === 'greet') {
         return (
             <div className='w-full max-w-md mx-auto text-center'>
-                <Paragraph>{children}</Paragraph>
+                <Paragraph secondary>{children}</Paragraph>
             </div>
         )
     }
