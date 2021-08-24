@@ -13,7 +13,7 @@ const chat = ({ type, children }) => {
 
     if (type === 'user') {
         return (
-            <div className='max-w-md p-2 border-2 border-gray-800 rounded'>
+            <div className='max-w-md p-2 border-2 border-gray-800 rounded break-words'>
                 <Paragraph>{children}</Paragraph>
             </div>
         )
