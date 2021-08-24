@@ -5,11 +5,14 @@ const config = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
-            gridTemplateColumns: {
-                coursesList: 'repeat(auto-fill, minmax(300px, 1fr))',
-            },
             fontFamily: {
                 sans: ['"Open Sans"', ...defaultTheme.fontFamily.sans],
+            },
+            gridTemplateRows: {
+                pageWrapper: '1fr auto',
+            },
+            gridTemplateColumns: {
+                coursesList: 'repeat(auto-fill, minmax(300px, 1fr))',
             },
         },
     },
