@@ -13,7 +13,7 @@ const home = ({ coursesList }) => {
             <div className='w-full h-80 grid place-items-center'>
                 <div>
                     <Heading1>Learn Something New Here</Heading1>
-                    <Paragraph className='text-gray-400 my-4'>
+                    <Paragraph className='my-4' secondary>
                         {appDescription}
                     </Paragraph>
                     <TextField
