@@ -2,11 +2,7 @@ import React from 'react'
 
 const paragraph = ({ children, className, secondary }) => {
     return (
-        <p
-            className={`text-white ${
-                secondary ? 'text-gray-400' : ''
-            } ${className}`}
-        >
+        <p className={`${secondary ? 'text-gray-500' : ''} ${className}`}>
             {children}
         </p>
     )

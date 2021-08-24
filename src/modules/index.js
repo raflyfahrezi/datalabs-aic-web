@@ -1,3 +1,4 @@
 import Home from './home'
+import Chatbot from './chatbot'
 
-export { Home }
+export { Home, Chatbot }

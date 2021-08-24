@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 
-import { CourseCard, TextField, ComponentWrapper } from '@components'
+import { ChatIcon } from '@assets'
 import { Heading1, Heading2, Paragraph } from '@typography'
+import { Link, CourseCard, TextField, ComponentWrapper } from '@components'
 
 const home = ({ coursesList }) => {
     const appDescription = process.env.NEXT_PUBLIC_APP_DESCRIPTION
@@ -13,7 +14,7 @@ const home = ({ coursesList }) => {
             <div className='w-full h-80 grid place-items-center'>
                 <div>
                     <Heading1>Learn Something New Here</Heading1>
-                    <Paragraph className='text-gray-400 my-4'>
+                    <Paragraph className='my-4' secondary>
                         {appDescription}
                     </Paragraph>
                     <TextField
@@ -46,6 +47,11 @@ const home = ({ coursesList }) => {
                         })}
                 </div>
             </div>
+            <Link href='/chatbot'>
+                <div className='w-20 h-20 fixed bottom-6 right-10 rounded-full grid place-items-center bg-gray-600 shadow-xl cursor-pointer'>
+                    <ChatIcon />
+                </div>
+            </Link>
         </ComponentWrapper>
     )
 }

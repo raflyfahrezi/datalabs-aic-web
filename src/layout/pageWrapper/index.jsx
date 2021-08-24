@@ -8,9 +8,11 @@ const pageWrapper = ({ title, children }) => {
     return (
         <>
             <Head title={title} />
-            <div>
-                <Navigation />
-                <main>{children}</main>
+            <div className='w-full min-h-screen grid grid-rows-pageWrapper'>
+                <div className='w-full'>
+                    <Navigation />
+                    <main className='w-full'>{children}</main>
+                </div>
                 <Footer />
             </div>
         </>
