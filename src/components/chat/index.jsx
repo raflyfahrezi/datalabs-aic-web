@@ -5,7 +5,7 @@ import { Paragraph } from '@typography'
 const chat = ({ type, children }) => {
     if (type === 'bot') {
         return (
-            <div className='max-w-md p-2 border-2 border-gray-800 bg-gray-800'>
+            <div className='max-w-md p-2 border-2 border-gray-800 bg-gray-800 rounded'>
                 <Paragraph>{children}</Paragraph>
             </div>
         )
@@ -13,7 +13,7 @@ const chat = ({ type, children }) => {
 
     if (type === 'user') {
         return (
-            <div className='max-w-md p-2 border-2 border-gray-800'>
+            <div className='max-w-md p-2 border-2 border-gray-800 rounded'>
                 <Paragraph>{children}</Paragraph>
             </div>
         )
