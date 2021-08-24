@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import { SendIcon } from '@assets'
 import { TextField, ComponentWrapper } from '@components'
@@ -6,7 +6,22 @@ import { TextField, ComponentWrapper } from '@components'
 import ChatBox from './box'
 
 const chatbot = () => {
+    const [message, setMessage] = useState('')
     const [chatHistory, setChatHistory] = useState([])
+
+    const messageChangeHandler = (e) => {
+        const { value } = e.target
+
+        setMessage(value)
+    }
+
+    const sendMessageHandler = (e) => {
+        e.preventDefault()
+
+        const chat = { type: 'user', message }
+
+        setChatHistory([...chatHistory, { ...chat }])
+    }
 
     return (
         <ComponentWrapper>
@@ -14,15 +29,19 @@ const chatbot = () => {
                 <div className='border-2 border-gray-800 rounded'>
                     <ChatBox chatHistory={chatHistory} />
                 </div>
-                <div className='py-6 flex'>
+                <form onSubmit={sendMessageHandler} className='py-6 flex'>
                     <TextField
                         className='w-full'
                         placeholder='Enter a message'
+                        onChange={messageChangeHandler}
                     />
-                    <div className='w-14 ml-2 grid place-items-center rounded bg-gray-800'>
+                    <button
+                        type='submit'
+                        className='w-14 ml-2 grid place-items-center rounded bg-gray-800'
+                    >
                         <SendIcon />
-                    </div>
-                </div>
+                    </button>
+                </form>
             </div>
         </ComponentWrapper>
     )
