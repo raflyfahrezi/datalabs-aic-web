@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Chatbot } from '@module'
+import { Chatbot } from '@modules'
 import { PageWrapper } from '@layout'
 
 const chatbot = () => {
