@@ -65,11 +65,11 @@ const chatbot = () => {
 
     return (
         <ComponentWrapper>
-            <div className='w-full h-full grid grid-rows-pageWrapper'>
+            <div className='w-full grid grid-rows-pageWrapper'>
                 <div className='max-h-96 border-2 border-gray-800 rounded overflow-auto'>
                     <ChatBox chatHistory={chatHistory} />
                 </div>
-                <form onSubmit={sendMessageHandler} className='py-6 flex'>
+                <form onSubmit={sendMessageHandler} className='pt-3 pb-6 flex'>
                     <TextField
                         value={message}
                         className='w-full'
