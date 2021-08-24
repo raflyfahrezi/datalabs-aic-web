@@ -4,8 +4,8 @@ const send = ({ color }) => {
     return (
         <svg
             role='img'
-            width='48'
-            height='48'
+            width='30'
+            height='30'
             viewBox='0 0 28 28'
             focusable='false'
             xmlns='http://www.w3.org/2000/svg'
