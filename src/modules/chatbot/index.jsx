@@ -13,7 +13,6 @@ const chatbot = () => {
 
     const [message, setMessage] = useState('')
     const [chatHistory, setChatHistory] = useState([])
-    const [requestResponse, setRequestResponse] = useState(false)
     const [isWaitingResponse, setIsWaitingResponse] = useState(false)
 
     const messageChangeHandler = (e) => {
@@ -31,9 +30,8 @@ const chatbot = () => {
     const sendMessageHandler = (e) => {
         e.preventDefault()
 
-        setMessage('')
         pushMessageToHistory({ type: 'user', message: message })
-        setRequestResponse(true)
+        setMessage('')
     }
 
     useEffect(async () => {
@@ -43,14 +41,21 @@ const chatbot = () => {
             return
         }
 
-        if (requestResponse === false) {
+        if (chatHistory[chatHistory.length - 1].type !== 'user') {
             return
         }
 
         try {
+            const body = new URLSearchParams()
+
+            const copyOfChatHistory = [...chatHistory]
+            const userMessage = copyOfChatHistory.pop()
+
+            body.append('chat', userMessage.message)
+
             const { data } = await axios.post(
-                'https://chatbot-datalabs.et.r.appspot.com',
-                { chat: message }
+                'https://chatbot-datalabs.et.r.appspot.com/',
+                body
             )
 
             pushMessageToHistory({ type: 'bot', message: data.res })
@@ -60,9 +65,7 @@ const chatbot = () => {
                 message: 'Oops! Something went wrong',
             })
         }
-
-        setRequestResponse(false)
-    }, [requestResponse])
+    }, [chatHistory])
 
     useEffect(() => {
         chatBoxRef.current.scrollTop = chatBoxRef.current.scrollHeight
