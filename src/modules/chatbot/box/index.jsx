@@ -13,7 +13,7 @@ const box = ({ chatHistory }) => {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5 }}
                 >
-                    <Chat type='greet'>
+                    <Chat type='info'>
                         Welcome to DataLabs Courses Chatbot. Ask us some
                         question and we will reply as fast as we can.
                     </Chat>
