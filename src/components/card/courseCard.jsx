@@ -4,7 +4,7 @@ import { Paragraph } from '@typography'
 
 const courseCard = ({ title, rating, students, subTitle }) => {
     return (
-        <div className='flex flex-col border-2 border-gray-600 rounded cursor-pointer'>
+        <div className='flex flex-col rounded cursor-pointer shadow-xl overflow-hidden'>
             <div className='flex flex-col h-full gap-2'>
                 <div className='w-full max-h-52'>
                     <img
