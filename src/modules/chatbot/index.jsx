@@ -7,6 +7,7 @@ import ChatBox from './box'
 
 const chatbot = () => {
     const [message, setMessage] = useState('')
+    const [isWaitingResponse, setIsWaitingResponse] = useState(false)
     const [chatHistory, setChatHistory] = useState([])
 
     const messageChangeHandler = (e) => {
@@ -26,7 +27,7 @@ const chatbot = () => {
 
     return (
         <ComponentWrapper>
-            <div className='w-full h-full grid grid-rows-pageWrapper '>
+            <div className='w-full h-full grid grid-rows-pageWrapper'>
                 <div className='border-2 border-gray-800 rounded'>
                     <ChatBox chatHistory={chatHistory} />
                 </div>
@@ -34,11 +35,13 @@ const chatbot = () => {
                     <TextField
                         value={message}
                         className='w-full'
+                        disabled={isWaitingResponse}
                         placeholder='Enter a message'
                         onChange={messageChangeHandler}
                     />
                     <button
                         type='submit'
+                        disabled={isWaitingResponse}
                         className='w-14 ml-2 grid place-items-center rounded bg-gray-800'
                     >
                         <SendIcon />
