@@ -8,6 +8,7 @@ import ChatBox from './box'
 import { async } from 'regenerator-runtime'
 
 const chatbot = () => {
+    const chatBoxRef = useRef()
     const isFirstRender = useRef(false)
 
     const [message, setMessage] = useState('')
@@ -63,10 +64,17 @@ const chatbot = () => {
         setRequestResponse(false)
     }, [requestResponse])
 
+    useEffect(() => {
+        chatBoxRef.current.scrollTop = chatBoxRef.current.scrollHeight
+    }, [chatHistory])
+
     return (
         <ComponentWrapper>
             <div className='w-full grid grid-rows-pageWrapper pt-4'>
-                <div className='h-96 border-2 border-gray-800 rounded overflow-auto'>
+                <div
+                    ref={chatBoxRef}
+                    className='h-96 border-2 border-gray-800 rounded overflow-auto'
+                >
                     <ChatBox chatHistory={chatHistory} />
                 </div>
                 <form onSubmit={sendMessageHandler} className='pt-3 pb-6 flex'>
