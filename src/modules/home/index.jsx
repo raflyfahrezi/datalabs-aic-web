@@ -31,28 +31,53 @@ const home = ({ coursesList }) => {
                     </div>
                 </div>
             </ComponentWrapper>
-            <div>
-                <CardWrapper title='Sedang Populer'>
-                    {keys.length > 0 &&
-                        keys.map((item, index) => {
-                            const {
-                                course_title,
-                                course_rating,
-                                course_organization,
-                                course_students_enrolled,
-                            } = coursesList[item]
+            <div className='grid gap-10 py-10'>
+                <div>
+                    <CardWrapper title='Sedang Populer'>
+                        {keys.length > 0 &&
+                            keys.map((item, index) => {
+                                const {
+                                    course_title,
+                                    course_rating,
+                                    course_organization,
+                                    course_students_enrolled,
+                                } = coursesList[item]
 
-                            return (
-                                <CourseCard
-                                    key={index}
-                                    title={course_title}
-                                    rating={course_rating}
-                                    subTitle={course_organization}
-                                    students={course_students_enrolled}
-                                />
-                            )
-                        })}
-                </CardWrapper>
+                                return (
+                                    <CourseCard
+                                        key={index}
+                                        title={course_title}
+                                        rating={course_rating}
+                                        subTitle={course_organization}
+                                        students={course_students_enrolled}
+                                    />
+                                )
+                            })}
+                    </CardWrapper>
+                </div>
+                <div>
+                    <CardWrapper title='Kelas Lainnya'>
+                        {keys.length > 0 &&
+                            keys.reverse().map((item, index) => {
+                                const {
+                                    course_title,
+                                    course_rating,
+                                    course_organization,
+                                    course_students_enrolled,
+                                } = coursesList[item]
+
+                                return (
+                                    <CourseCard
+                                        key={index}
+                                        title={course_title}
+                                        rating={course_rating}
+                                        subTitle={course_organization}
+                                        students={course_students_enrolled}
+                                    />
+                                )
+                            })}
+                    </CardWrapper>
+                </div>
             </div>
             {/* <Link href='/chatbot'>
                 <div className='w-20 h-20 fixed bottom-6 right-10 rounded-full grid place-items-center bg-gray-600 shadow-xl cursor-pointer'>
