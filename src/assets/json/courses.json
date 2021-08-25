@@ -6,7 +6,8 @@
         "course_Certificate_type": "SPECIALIZATION",
         "course_rating": 4.7,
         "course_difficulty": "Beginner",
-        "course_students_enrolled": "5.3k"
+        "course_students_enrolled": "5.3k",
+        "course_image": "https://www.robicomp.com/wp-content/uploads/2019/12/system-security.jpg"
     },
     {
         "id": 743,
@@ -15,7 +16,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.7,
         "course_difficulty": "Intermediate",
-        "course_students_enrolled": "17k"
+        "course_students_enrolled": "17k",
+        "course_image" : "https://www.ub.edu/idlab/wp-content/uploads/2021/03/pexels-pixabay-60582-scaled.jpg"
     },
     {
         "id": 874,
@@ -24,7 +26,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.5,
         "course_difficulty": "Mixed",
-        "course_students_enrolled": "130k"
+        "course_students_enrolled": "130k",
+        "course_image" : "https://hilda-analyzes.com/wp-content/uploads/2019/06/1_9onqVYdPPrCcwDX6mGKCpg.jpeg"
     },
     {
         "id": 413,
@@ -33,7 +36,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.7,
         "course_difficulty": "Mixed",
-        "course_students_enrolled": "91k"
+        "course_students_enrolled": "91k",
+        "course_image" : "https://booksrun.com/blog/wp-content/uploads/2019/03/414629-PD6SKX-817-1-668x445.jpg"
     },
     {
         "id": 635,
@@ -42,7 +46,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.8,
         "course_difficulty": "Mixed",
-        "course_students_enrolled": "320k"
+        "course_students_enrolled": "320k",
+        "course_image" : "https://gameplay.beon.co.id/wp-content/uploads/2021/01/happy.jpg"
     },
     {
         "id": 661,
@@ -51,7 +56,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.7,
         "course_difficulty": "Beginner",
-        "course_students_enrolled": "39k"
+        "course_students_enrolled": "39k",
+        "course_image" : "https://www.greatschools.org/gk/wp-content/uploads/2016/09/Questions-for-elementary-school.jpg"
     },
     {
         "id": 54,
@@ -60,7 +66,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.8,
         "course_difficulty": "Beginner",
-        "course_students_enrolled": "350k"
+        "course_students_enrolled": "350k",
+        "course_image" : "https://asset.kompas.com/crops/UZEeAzw2HsRyMXiNIjA3pS6O6WE=/65x47:996x667/750x500/data/photo/2019/05/06/1253096988.jpg"
     },
     {
         "id": 488,
@@ -69,7 +76,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.8,
         "course_difficulty": "Intermediate",
-        "course_students_enrolled": "2.4k"
+        "course_students_enrolled": "2.4k",
+        "course_image" : "https://renumics.com/img/blog/ai-assisted-engineering-770.jpg"
     },
     {
         "id": 58,
@@ -78,7 +86,8 @@
         "course_Certificate_type": "SPECIALIZATION",
         "course_rating": 4.7,
         "course_difficulty": "Beginner",
-        "course_students_enrolled": "61k"
+        "course_students_enrolled": "61k",
+        "course_image" : "https://qtxasset.com/fiercetelecom/1561473356/artificial-intelligence-3382507_1920.jpg/artificial-intelligence-3382507_1920.jpg?FnSSuz0dVUey.OWtxtiShctnumGeZoE0"
     },
     {
         "id": 129,
@@ -87,7 +96,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.7,
         "course_difficulty": "Intermediate",
-        "course_students_enrolled": "12k"
+        "course_students_enrolled": "12k",
+        "course_image" : "https://hsl.chapinindustries.com/wp-content/uploads/2021/04/image.imageformat.fullwidth.732601064.jpg"
     },
     {
         "id": 283,
@@ -96,7 +106,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.6,
         "course_difficulty": "Intermediate",
-        "course_students_enrolled": "4k"
+        "course_students_enrolled": "4k",
+        "course_image" : "https://www.systemsmedicine.net/wp-content/uploads/2020/06/Untitled-830x410.jpg"
     },
     {
         "id": 35,
@@ -105,7 +116,8 @@
         "course_Certificate_type": "SPECIALIZATION",
         "course_rating": 4.7,
         "course_difficulty": "Intermediate",
-        "course_students_enrolled": "13k"
+        "course_students_enrolled": "13k",
+        "course_image" : "https://2v9ljb1q29v32lhzl42l5g76-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/Daxue-consulting-Healthcare-drug-discovery-800x560.jpg"
     },
     {
         "id": 43,
@@ -114,7 +126,8 @@
         "course_Certificate_type": "SPECIALIZATION",
         "course_rating": 4.6,
         "course_difficulty": "Beginner",
-        "course_students_enrolled": "130k"
+        "course_students_enrolled": "130k",
+        "course_image" : "https://mms.businesswire.com/media/20190403005931/en/714191/23/AWS_logo_RGB%281%29.jpg"
     },
     {
         "id": 631,
@@ -123,7 +136,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.3,
         "course_difficulty": "Beginner",
-        "course_students_enrolled": "11k"
+        "course_students_enrolled": "11k",
+        "course_image" : "https://d0.awsstatic.com/security-center/security_01.jpg"
     },
     {
         "id": 861,
@@ -132,7 +146,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.7,
         "course_difficulty": "Beginner",
-        "course_students_enrolled": "27k"
+        "course_students_enrolled": "27k",
+        "course_image" : "https://s3-us-west-2.amazonaws.com/assets.blog.serverless.com/choosing-serverless-database/choosing-serverless-database-header.png"
     },
     {
         "id": 281,
@@ -141,7 +156,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.7,
         "course_difficulty": "Beginner",
-        "course_students_enrolled": "110k"
+        "course_students_enrolled": "110k",
+        "course_image" : "https://www.techrepublic.com/a/hub/i/r/2020/06/23/6686f980-e204-41f6-b044-04f495494c4f/resize/1200x/19b28911bc2775e46443ddbd9e1f6484/cloud-migration.jpg"
     },
     {
         "id": 828,
@@ -150,7 +166,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.5,
         "course_difficulty": "Intermediate",
-        "course_students_enrolled": "13k"
+        "course_students_enrolled": "13k",
+        "course_image" : "https://arrowvoice.com.au/wp-content/uploads/2019/04/cloud-logo-v2.jpg"
     },
     {
         "id": 819,
@@ -159,7 +176,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.7,
         "course_difficulty": "Mixed",
-        "course_students_enrolled": "6.6k"
+        "course_students_enrolled": "6.6k",
+        "course_image" : "https://ugc.futurelearn.com/uploads/images/c2/f2/promo_small_c2f28f6b-142f-41a4-a38d-02e92047a193.jpg"
     },
     {
         "id": 142,
@@ -168,7 +186,8 @@
         "course_Certificate_type": "SPECIALIZATION",
         "course_rating": 4.7,
         "course_difficulty": "Intermediate",
-        "course_students_enrolled": "22k"
+        "course_students_enrolled": "22k",
+        "course_image" : "https://miuc.org/wp-content/uploads/2017/01/Study-Computer-Science-1280x720.jpg"
     },
     {
         "id": 612,
@@ -177,7 +196,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.6,
         "course_difficulty": "Beginner",
-        "course_students_enrolled": "2.9k"
+        "course_students_enrolled": "2.9k",
+        "course_image" : "https://images.idgesg.net/images/article/2019/08/access_control_authentication_privileges_network_connectivity_security_by_metamorworks_gettyimages-966835276_2400x1600-100808099-large.jpg?auto=webp"
     },
     {
         "id": 604,
@@ -186,7 +206,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.5,
         "course_difficulty": "Mixed",
-        "course_students_enrolled": "80k"
+        "course_students_enrolled": "80k",
+        "course_image" : "https://theanalyticsbay.files.wordpress.com/2020/06/accounting_analytics_2-2000x650-1.jpg"
     },
     {
         "id": 727,
@@ -195,7 +216,9 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.8,
         "course_difficulty": "Intermediate",
-        "course_students_enrolled": "9.9k"
+        "course_students_enrolled": "9.9k",
+        "course_image" : "https://gmedia.net.id/upload/foto_artikel/202012114dpoEZ3Tyf.png"
+
     },
     {
         "id": 51,
@@ -204,7 +227,8 @@
         "course_Certificate_type": "SPECIALIZATION",
         "course_rating": 4.7,
         "course_difficulty": "Beginner",
-        "course_students_enrolled": "110k"
+        "course_students_enrolled": "110k",
+        "course_image" : "https://s3.amazonaws.com/startupcollective-com/wp-content/uploads/20160420160025/Workplace-success-675x320.jpg"
     },
     {
         "id": 838,
@@ -213,7 +237,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.8,
         "course_difficulty": "Mixed",
-        "course_students_enrolled": "23k"
+        "course_students_enrolled": "23k",
+        "course_image" : "https://d1bpj0tv6vfxyp.cloudfront.net/waspadaini8gejaladiabetesmelitushalodoc.jpg"
     },
     {
         "id": 330,
@@ -222,7 +247,8 @@
         "course_Certificate_type": "COURSE",
         "course_rating": 4.8,
         "course_difficulty": "Beginner",
-        "course_students_enrolled": "9.2k"
+        "course_students_enrolled": "9.2k",
+        "course_image" : "https://res.cloudinary.com/mckinseyonhealthcare/w_900,h_670,c_fill,q_auto:best/www/2020/05/image001.jpg"
     },
     {
         "id": 247,
@@ -231,7 +257,8 @@
         "course_Certificate_type": "SPECIALIZATION",
         "course_rating": 4.5,
         "course_difficulty": "Intermediate",
-        "course_students_enrolled": "78k"
+        "course_students_enrolled": "78k",
+        "course_image" : "https://asset.kompas.com/crops/ftol7GvLEA6ciqW5teqaa_32Rb0=/0x0:1263x842/750x500/data/photo/2020/12/08/5fcf7d14a6c3d.jpg"
     },
     {
         "id": 157,
@@ -240,7 +267,8 @@
         "course_Certificate_type": "SPECIALIZATION",
         "course_rating": 4.4,
         "course_difficulty": "Advanced",
-        "course_students_enrolled": "320k"
+        "course_students_enrolled": "320k",
+        "course_image" : "https://img.helpnetsecurity.com/wp-content/uploads/2015/04/09194624/IBM.jpg"
     },
     {
         "id": 103,
@@ -249,6 +277,7 @@
         "course_Certificate_type": "SPECIALIZATION",
         "course_rating": 4.5,
         "course_difficulty": "Advanced",
-        "course_students_enrolled": "190k"
+        "course_students_enrolled": "190k",
+        "course_image" : "https://www.jojonomic.com/wp-content/uploads/2021/06/machine-learning.png"
     }
 ]
