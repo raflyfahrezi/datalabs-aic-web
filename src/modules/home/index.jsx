@@ -86,7 +86,7 @@ const home = ({ coursesList }) => {
                     </div>
                     <div className='grid place-items-center py-10 gap-10'>
                         <div className='flex flex-col items-center gap-5'>
-                            <ChatIcon color={'text-gray-800'} />
+                            <ChatIcon color={'text-gray-800'} size='100' />
                             <Paragraph>
                                 Masih bingung dengan karir kamu di Bidang IT ?
                                 Yuk konsultasikan dengan kami
