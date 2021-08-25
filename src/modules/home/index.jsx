@@ -2,7 +2,13 @@ import React, { useState } from 'react'
 
 import { ChatIcon } from '@assets'
 import { Heading1, Heading2, Paragraph } from '@typography'
-import { Link, CourseCard, TextField, ComponentWrapper } from '@components'
+import {
+    Link,
+    TextField,
+    CourseCard,
+    CardWrapper,
+    ComponentWrapper,
+} from '@components'
 
 const home = ({ coursesList }) => {
     const appDescription = process.env.NEXT_PUBLIC_APP_DESCRIPTION
@@ -25,7 +31,7 @@ const home = ({ coursesList }) => {
             </div>
             <div>
                 <Heading2>Sedang Populer</Heading2>
-                <div className='grid grid-cols-coursesList gap-5 mt-3'>
+                <CardWrapper className=''>
                     {keys.length > 0 &&
                         keys.map((item, index) => {
                             const {
@@ -45,7 +51,7 @@ const home = ({ coursesList }) => {
                                 />
                             )
                         })}
-                </div>
+                </CardWrapper>
             </div>
             <Link href='/chatbot'>
                 <div className='w-20 h-20 fixed bottom-6 right-10 rounded-full grid place-items-center bg-gray-600 shadow-xl cursor-pointer'>
