@@ -3,9 +3,9 @@ import React, { useRef, useState, useEffect } from 'react'
 
 import { SendIcon } from '@assets'
 import { TextField, ComponentWrapper } from '@components'
+import { Heading1 } from '@typography'
 
 import ChatBox from './box'
-import { async } from 'regenerator-runtime'
 
 const chatbot = () => {
     const chatBoxRef = useRef()
@@ -73,6 +73,9 @@ const chatbot = () => {
 
     return (
         <ComponentWrapper>
+            <div className='text-center pb-6 pt-8'>
+                <Heading1>Konsultasikan Karir mu disini</Heading1>
+            </div>
             <div className='w-full grid grid-rows-pageWrapper pt-4'>
                 <div
                     ref={chatBoxRef}
