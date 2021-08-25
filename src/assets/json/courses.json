@@ -17,7 +17,7 @@
         "course_rating": 4.7,
         "course_difficulty": "Intermediate",
         "course_students_enrolled": "17k",
-        "course_image" : "https://www.ub.edu/idlab/wp-content/uploads/2021/03/pexels-pixabay-60582-scaled.jpg"
+        "course_image": "https://www.ub.edu/idlab/wp-content/uploads/2021/03/pexels-pixabay-60582-scaled.jpg"
     },
     {
         "id": 874,
@@ -27,7 +27,7 @@
         "course_rating": 4.5,
         "course_difficulty": "Mixed",
         "course_students_enrolled": "130k",
-        "course_image" : "https://hilda-analyzes.com/wp-content/uploads/2019/06/1_9onqVYdPPrCcwDX6mGKCpg.jpeg"
+        "course_image": "data:image/jpeg;base64,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"
     },
     {
         "id": 413,
@@ -37,7 +37,7 @@
         "course_rating": 4.7,
         "course_difficulty": "Mixed",
         "course_students_enrolled": "91k",
-        "course_image" : "https://booksrun.com/blog/wp-content/uploads/2019/03/414629-PD6SKX-817-1-668x445.jpg"
+        "course_image": "https://booksrun.com/blog/wp-content/uploads/2019/03/414629-PD6SKX-817-1-668x445.jpg"
     },
     {
         "id": 635,
@@ -47,7 +47,7 @@
         "course_rating": 4.8,
         "course_difficulty": "Mixed",
         "course_students_enrolled": "320k",
-        "course_image" : "https://gameplay.beon.co.id/wp-content/uploads/2021/01/happy.jpg"
+        "course_image": "https://gameplay.beon.co.id/wp-content/uploads/2021/01/happy.jpg"
     },
     {
         "id": 661,
@@ -57,7 +57,7 @@
         "course_rating": 4.7,
         "course_difficulty": "Beginner",
         "course_students_enrolled": "39k",
-        "course_image" : "https://www.greatschools.org/gk/wp-content/uploads/2016/09/Questions-for-elementary-school.jpg"
+        "course_image": "https://www.greatschools.org/gk/wp-content/uploads/2016/09/Questions-for-elementary-school.jpg"
     },
     {
         "id": 54,
@@ -67,7 +67,7 @@
         "course_rating": 4.8,
         "course_difficulty": "Beginner",
         "course_students_enrolled": "350k",
-        "course_image" : "https://asset.kompas.com/crops/UZEeAzw2HsRyMXiNIjA3pS6O6WE=/65x47:996x667/750x500/data/photo/2019/05/06/1253096988.jpg"
+        "course_image": "https://asset.kompas.com/crops/UZEeAzw2HsRyMXiNIjA3pS6O6WE=/65x47:996x667/750x500/data/photo/2019/05/06/1253096988.jpg"
     },
     {
         "id": 488,
@@ -77,7 +77,7 @@
         "course_rating": 4.8,
         "course_difficulty": "Intermediate",
         "course_students_enrolled": "2.4k",
-        "course_image" : "https://renumics.com/img/blog/ai-assisted-engineering-770.jpg"
+        "course_image": "https://renumics.com/img/blog/ai-assisted-engineering-770.jpg"
     },
     {
         "id": 58,
@@ -87,7 +87,7 @@
         "course_rating": 4.7,
         "course_difficulty": "Beginner",
         "course_students_enrolled": "61k",
-        "course_image" : "https://qtxasset.com/fiercetelecom/1561473356/artificial-intelligence-3382507_1920.jpg/artificial-intelligence-3382507_1920.jpg?FnSSuz0dVUey.OWtxtiShctnumGeZoE0"
+        "course_image": "https://qtxasset.com/fiercetelecom/1561473356/artificial-intelligence-3382507_1920.jpg/artificial-intelligence-3382507_1920.jpg?FnSSuz0dVUey.OWtxtiShctnumGeZoE0"
     },
     {
         "id": 129,
@@ -97,7 +97,7 @@
         "course_rating": 4.7,
         "course_difficulty": "Intermediate",
         "course_students_enrolled": "12k",
-        "course_image" : "https://hsl.chapinindustries.com/wp-content/uploads/2021/04/image.imageformat.fullwidth.732601064.jpg"
+        "course_image": "https://hsl.chapinindustries.com/wp-content/uploads/2021/04/image.imageformat.fullwidth.732601064.jpg"
     },
     {
         "id": 283,
@@ -107,7 +107,7 @@
         "course_rating": 4.6,
         "course_difficulty": "Intermediate",
         "course_students_enrolled": "4k",
-        "course_image" : "https://www.systemsmedicine.net/wp-content/uploads/2020/06/Untitled-830x410.jpg"
+        "course_image": "https://www.systemsmedicine.net/wp-content/uploads/2020/06/Untitled-830x410.jpg"
     },
     {
         "id": 35,
@@ -117,7 +117,7 @@
         "course_rating": 4.7,
         "course_difficulty": "Intermediate",
         "course_students_enrolled": "13k",
-        "course_image" : "https://2v9ljb1q29v32lhzl42l5g76-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/Daxue-consulting-Healthcare-drug-discovery-800x560.jpg"
+        "course_image": "https://2v9ljb1q29v32lhzl42l5g76-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/Daxue-consulting-Healthcare-drug-discovery-800x560.jpg"
     },
     {
         "id": 43,
@@ -127,7 +127,7 @@
         "course_rating": 4.6,
         "course_difficulty": "Beginner",
         "course_students_enrolled": "130k",
-        "course_image" : "https://mms.businesswire.com/media/20190403005931/en/714191/23/AWS_logo_RGB%281%29.jpg"
+        "course_image": "https://mms.businesswire.com/media/20190403005931/en/714191/23/AWS_logo_RGB%281%29.jpg"
     },
     {
         "id": 631,
@@ -137,7 +137,7 @@
         "course_rating": 4.3,
         "course_difficulty": "Beginner",
         "course_students_enrolled": "11k",
-        "course_image" : "https://d0.awsstatic.com/security-center/security_01.jpg"
+        "course_image": "https://d0.awsstatic.com/security-center/security_01.jpg"
     },
     {
         "id": 861,
@@ -147,7 +147,7 @@
         "course_rating": 4.7,
         "course_difficulty": "Beginner",
         "course_students_enrolled": "27k",
-        "course_image" : "https://s3-us-west-2.amazonaws.com/assets.blog.serverless.com/choosing-serverless-database/choosing-serverless-database-header.png"
+        "course_image": "https://s3-us-west-2.amazonaws.com/assets.blog.serverless.com/choosing-serverless-database/choosing-serverless-database-header.png"
     },
     {
         "id": 281,
@@ -157,7 +157,7 @@
         "course_rating": 4.7,
         "course_difficulty": "Beginner",
         "course_students_enrolled": "110k",
-        "course_image" : "https://www.techrepublic.com/a/hub/i/r/2020/06/23/6686f980-e204-41f6-b044-04f495494c4f/resize/1200x/19b28911bc2775e46443ddbd9e1f6484/cloud-migration.jpg"
+        "course_image": "https://www.techrepublic.com/a/hub/i/r/2020/06/23/6686f980-e204-41f6-b044-04f495494c4f/resize/1200x/19b28911bc2775e46443ddbd9e1f6484/cloud-migration.jpg"
     },
     {
         "id": 828,
@@ -167,7 +167,7 @@
         "course_rating": 4.5,
         "course_difficulty": "Intermediate",
         "course_students_enrolled": "13k",
-        "course_image" : "https://arrowvoice.com.au/wp-content/uploads/2019/04/cloud-logo-v2.jpg"
+        "course_image": "https://arrowvoice.com.au/wp-content/uploads/2019/04/cloud-logo-v2.jpg"
     },
     {
         "id": 819,
@@ -177,7 +177,7 @@
         "course_rating": 4.7,
         "course_difficulty": "Mixed",
         "course_students_enrolled": "6.6k",
-        "course_image" : "https://ugc.futurelearn.com/uploads/images/c2/f2/promo_small_c2f28f6b-142f-41a4-a38d-02e92047a193.jpg"
+        "course_image": "https://ugc.futurelearn.com/uploads/images/c2/f2/promo_small_c2f28f6b-142f-41a4-a38d-02e92047a193.jpg"
     },
     {
         "id": 142,
@@ -187,7 +187,7 @@
         "course_rating": 4.7,
         "course_difficulty": "Intermediate",
         "course_students_enrolled": "22k",
-        "course_image" : "https://miuc.org/wp-content/uploads/2017/01/Study-Computer-Science-1280x720.jpg"
+        "course_image": "https://miuc.org/wp-content/uploads/2017/01/Study-Computer-Science-1280x720.jpg"
     },
     {
         "id": 612,
@@ -197,7 +197,7 @@
         "course_rating": 4.6,
         "course_difficulty": "Beginner",
         "course_students_enrolled": "2.9k",
-        "course_image" : "https://images.idgesg.net/images/article/2019/08/access_control_authentication_privileges_network_connectivity_security_by_metamorworks_gettyimages-966835276_2400x1600-100808099-large.jpg?auto=webp"
+        "course_image": "https://images.idgesg.net/images/article/2019/08/access_control_authentication_privileges_network_connectivity_security_by_metamorworks_gettyimages-966835276_2400x1600-100808099-large.jpg?auto=webp"
     },
     {
         "id": 604,
@@ -207,7 +207,7 @@
         "course_rating": 4.5,
         "course_difficulty": "Mixed",
         "course_students_enrolled": "80k",
-        "course_image" : "https://theanalyticsbay.files.wordpress.com/2020/06/accounting_analytics_2-2000x650-1.jpg"
+        "course_image": "https://theanalyticsbay.files.wordpress.com/2020/06/accounting_analytics_2-2000x650-1.jpg"
     },
     {
         "id": 727,
@@ -217,8 +217,7 @@
         "course_rating": 4.8,
         "course_difficulty": "Intermediate",
         "course_students_enrolled": "9.9k",
-        "course_image" : "https://gmedia.net.id/upload/foto_artikel/202012114dpoEZ3Tyf.png"
-
+        "course_image": "https://gmedia.net.id/upload/foto_artikel/202012114dpoEZ3Tyf.png"
     },
     {
         "id": 51,
@@ -228,7 +227,7 @@
         "course_rating": 4.7,
         "course_difficulty": "Beginner",
         "course_students_enrolled": "110k",
-        "course_image" : "https://s3.amazonaws.com/startupcollective-com/wp-content/uploads/20160420160025/Workplace-success-675x320.jpg"
+        "course_image": "https://s3.amazonaws.com/startupcollective-com/wp-content/uploads/20160420160025/Workplace-success-675x320.jpg"
     },
     {
         "id": 838,
@@ -238,7 +237,7 @@
         "course_rating": 4.8,
         "course_difficulty": "Mixed",
         "course_students_enrolled": "23k",
-        "course_image" : "https://d1bpj0tv6vfxyp.cloudfront.net/waspadaini8gejaladiabetesmelitushalodoc.jpg"
+        "course_image": "https://d1bpj0tv6vfxyp.cloudfront.net/waspadaini8gejaladiabetesmelitushalodoc.jpg"
     },
     {
         "id": 330,
@@ -248,7 +247,7 @@
         "course_rating": 4.8,
         "course_difficulty": "Beginner",
         "course_students_enrolled": "9.2k",
-        "course_image" : "https://res.cloudinary.com/mckinseyonhealthcare/w_900,h_670,c_fill,q_auto:best/www/2020/05/image001.jpg"
+        "course_image": "https://res.cloudinary.com/mckinseyonhealthcare/w_900,h_670,c_fill,q_auto:best/www/2020/05/image001.jpg"
     },
     {
         "id": 247,
@@ -258,7 +257,7 @@
         "course_rating": 4.5,
         "course_difficulty": "Intermediate",
         "course_students_enrolled": "78k",
-        "course_image" : "https://asset.kompas.com/crops/ftol7GvLEA6ciqW5teqaa_32Rb0=/0x0:1263x842/750x500/data/photo/2020/12/08/5fcf7d14a6c3d.jpg"
+        "course_image": "https://asset.kompas.com/crops/ftol7GvLEA6ciqW5teqaa_32Rb0=/0x0:1263x842/750x500/data/photo/2020/12/08/5fcf7d14a6c3d.jpg"
     },
     {
         "id": 157,
@@ -268,7 +267,7 @@
         "course_rating": 4.4,
         "course_difficulty": "Advanced",
         "course_students_enrolled": "320k",
-        "course_image" : "https://img.helpnetsecurity.com/wp-content/uploads/2015/04/09194624/IBM.jpg"
+        "course_image": "https://img.helpnetsecurity.com/wp-content/uploads/2015/04/09194624/IBM.jpg"
     },
     {
         "id": 103,
@@ -278,6 +277,6 @@
         "course_rating": 4.5,
         "course_difficulty": "Advanced",
         "course_students_enrolled": "190k",
-        "course_image" : "https://www.jojonomic.com/wp-content/uploads/2021/06/machine-learning.png"
+        "course_image": "https://www.jojonomic.com/wp-content/uploads/2021/06/machine-learning.png"
     }
 ]
