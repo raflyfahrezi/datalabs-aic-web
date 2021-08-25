@@ -62,7 +62,7 @@ const cardWrapper = ({ title, className, children }) => {
             </ComponentWrapper>
             <div
                 ref={cardWrapper}
-                className={`w-full py-6 overflow-auto scrollbar-hide  ${
+                className={`w-full py-6 overflow-auto scrollbar-hide scroll-smooth ${
                     className ?? ''
                 }`}
             >
