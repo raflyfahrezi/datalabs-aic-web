@@ -2,14 +2,18 @@
 
 Members:
 
--   Rakha
--   Bintang
--   Farhan
+-   Muhammad Rakha Firdaus
+-   Bintang Farhandika Editya
+-   Farhan Rafly Fahrezi Saepulloh
 
 Stack:
 
 -   Next.js
 -   Tailwind CSS
+
+Backend Repository:
+
+-   [DataLabs AIC Backend](https://github.com/bintangeditya/datalabs-aic) - Flask
 
 ## How to use
 
@@ -22,3 +26,7 @@ yarn run dev
 ```
 
 Please note that we are using Yarn.
+
+## Deployment
+
+This app is deployed on [Vercel](https://vercel.com)
