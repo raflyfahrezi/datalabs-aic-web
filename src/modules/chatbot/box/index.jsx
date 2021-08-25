@@ -14,8 +14,8 @@ const box = ({ chatHistory }) => {
                     transition={{ delay: 0.5 }}
                 >
                     <Chat type='info'>
-                        Welcome to DataLabs Courses Chatbot. Ask us some
-                        question and we will reply as fast as we can.
+                        Selamat datang di DataLabs Courses Chatbot. Ketik
+                        "hello" untuk memulai dan "bye" untuk mengakhiri.
                     </Chat>
                 </motion.div>
             </div>
