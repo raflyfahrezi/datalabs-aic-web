@@ -20,6 +20,7 @@ const config = {
         extend: {},
     },
     plugins: [
+        require('tailwind-scrollbar'),
         require('tailwind-scrollbar-hide'),
         require('tailwind-scroll-behavior')(),
     ],
