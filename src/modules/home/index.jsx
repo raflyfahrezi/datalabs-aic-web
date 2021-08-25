@@ -35,7 +35,7 @@ const home = ({ coursesList }) => {
                 <ComponentWrapper>
                     <Heading2>Sedang Populer</Heading2>
                 </ComponentWrapper>
-                <CardWrapper>
+                <CardWrapper className='py-6'>
                     {keys.length > 0 &&
                         keys.map((item, index) => {
                             const {
@@ -57,11 +57,11 @@ const home = ({ coursesList }) => {
                         })}
                 </CardWrapper>
             </div>
-            <Link href='/chatbot'>
+            {/* <Link href='/chatbot'>
                 <div className='w-20 h-20 fixed bottom-6 right-10 rounded-full grid place-items-center bg-gray-600 shadow-xl cursor-pointer'>
                     <ChatIcon />
                 </div>
-            </Link>
+            </Link> */}
         </>
     )
 }
