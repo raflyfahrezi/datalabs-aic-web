@@ -16,22 +16,26 @@ const home = ({ coursesList }) => {
     const [keys] = useState(Object.keys(coursesList))
 
     return (
-        <ComponentWrapper>
-            <div className='w-full h-80 grid place-items-center'>
-                <div>
-                    <Heading1>Belajar Hal Baru Disini</Heading1>
-                    <Paragraph className='my-4' secondary>
-                        {appDescription}
-                    </Paragraph>
-                    <TextField
-                        placeholder='Search courses'
-                        className='mt-2 w-full max-w-md'
-                    />
+        <>
+            <ComponentWrapper>
+                <div className='w-full h-80 grid place-items-center'>
+                    <div>
+                        <Heading1>Belajar Hal Baru Disini</Heading1>
+                        <Paragraph className='my-4' secondary>
+                            {appDescription}
+                        </Paragraph>
+                        <TextField
+                            placeholder='Search courses'
+                            className='mt-2 w-full max-w-md'
+                        />
+                    </div>
                 </div>
-            </div>
+            </ComponentWrapper>
             <div>
-                <Heading2>Sedang Populer</Heading2>
-                <CardWrapper className=''>
+                <ComponentWrapper>
+                    <Heading2>Sedang Populer</Heading2>
+                </ComponentWrapper>
+                <CardWrapper>
                     {keys.length > 0 &&
                         keys.map((item, index) => {
                             const {
@@ -58,7 +62,7 @@ const home = ({ coursesList }) => {
                     <ChatIcon />
                 </div>
             </Link>
-        </ComponentWrapper>
+        </>
     )
 }
 
