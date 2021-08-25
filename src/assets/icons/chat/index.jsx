@@ -1,11 +1,11 @@
 import React from 'react'
 
-const chat = ({ color }) => {
+const chat = ({ color, size }) => {
     return (
         <svg
             role='img'
-            width='48'
-            height='48'
+            width={size ?? '48'}
+            height={size ?? '48'}
             focusable='false'
             viewBox='0 0 24 24'
             xmlns='http://www.w3.org/2000/svg'

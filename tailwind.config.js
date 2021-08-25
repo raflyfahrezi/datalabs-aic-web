@@ -19,7 +19,11 @@ const config = {
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require('tailwind-scrollbar'),
+        require('tailwind-scrollbar-hide'),
+        require('tailwind-scroll-behavior')(),
+    ],
 }
 
 module.exports = config
