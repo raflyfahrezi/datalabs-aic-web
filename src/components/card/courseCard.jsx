@@ -16,15 +16,15 @@ const courseCard = ({ title, rating, students, subTitle }) => {
                 <div className='h-full flex flex-col justify-between p-4'>
                     <div className='pb-4'>
                         <Paragraph>{title}</Paragraph>
-                        <Paragraph secondary className='text-sm'>
+                        {/* <Paragraph secondary className='text-sm'>
                             {subTitle}
-                        </Paragraph>
+                        </Paragraph> */}
                     </div>
                     <div className='flex justify-end items-center gap-2'>
                         {/* <Paragraph className='text-xs'>{rating}</Paragraph>
                     <Paragraph>&middot;</Paragraph> */}
                         <Paragraph className='text-xs'>
-                            {students} stundents enrolled
+                            {rating} | {students} stundents enrolled
                         </Paragraph>
                     </div>
                 </div>
