@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import { ChatIcon } from '@assets'
-import { Heading1, Heading2, Paragraph } from '@typography'
+import { Heading1, Paragraph } from '@typography'
 import {
     Link,
     TextField,
