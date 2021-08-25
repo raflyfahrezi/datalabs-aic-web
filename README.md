@@ -14,6 +14,7 @@ Stack:
 Backend Repository:
 
 -   [DataLabs AIC Backend](https://github.com/bintangeditya/datalabs-aic) - Flask
+-   Colaboratory Rakha & Bintang at [DataLabs AIC Backend] project
 
 ## How to use
 
