@@ -39,6 +39,7 @@ const home = ({ coursesList }) => {
                                 const {
                                     course_title,
                                     course_rating,
+                                    course_image,
                                     course_organization,
                                     course_students_enrolled,
                                 } = coursesList[item]
@@ -47,6 +48,7 @@ const home = ({ coursesList }) => {
                                     <CourseCard
                                         key={index}
                                         title={course_title}
+                                        image={course_image}
                                         rating={course_rating}
                                         subTitle={course_organization}
                                         students={course_students_enrolled}
@@ -61,6 +63,7 @@ const home = ({ coursesList }) => {
                             keys.reverse().map((item, index) => {
                                 const {
                                     course_title,
+                                    course_image,
                                     course_rating,
                                     course_organization,
                                     course_students_enrolled,
@@ -70,6 +73,7 @@ const home = ({ coursesList }) => {
                                     <CourseCard
                                         key={index}
                                         title={course_title}
+                                        image={course_image}
                                         rating={course_rating}
                                         subTitle={course_organization}
                                         students={course_students_enrolled}

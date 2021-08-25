@@ -2,15 +2,15 @@ import React from 'react'
 
 import { Paragraph } from '@typography'
 
-const courseCard = ({ title, rating, students, subTitle }) => {
+const courseCard = ({ title, rating, students, subTitle, image }) => {
     return (
         <div className='w-72 flex flex-col rounded cursor-pointer shadow-xl overflow-hidden'>
             <div className='flex flex-col h-full gap-2'>
-                <div className='w-full max-h-52'>
+                <div className='w-full'>
                     <img
+                        src={image}
                         alt='Course Image'
-                        className='w-full h-full object-cover'
-                        src='https://via.placeholder.com/700x500.png?text=Course%20Image'
+                        className='w-full h-52 object-cover'
                     />
                 </div>
                 <div className='h-full flex flex-col justify-between p-4'>
