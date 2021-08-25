@@ -32,10 +32,7 @@ const home = ({ coursesList }) => {
                 </div>
             </ComponentWrapper>
             <div>
-                <ComponentWrapper>
-                    <Heading2>Sedang Populer</Heading2>
-                </ComponentWrapper>
-                <CardWrapper className='py-6'>
+                <CardWrapper title='Sedang Populer'>
                     {keys.length > 0 &&
                         keys.map((item, index) => {
                             const {
