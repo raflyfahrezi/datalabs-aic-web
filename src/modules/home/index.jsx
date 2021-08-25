@@ -13,7 +13,7 @@ const home = ({ coursesList }) => {
         <ComponentWrapper>
             <div className='w-full h-80 grid place-items-center'>
                 <div>
-                    <Heading1>Learn Something New Here</Heading1>
+                    <Heading1>Belajar Hal Baru Disini</Heading1>
                     <Paragraph className='my-4' secondary>
                         {appDescription}
                     </Paragraph>
@@ -24,7 +24,7 @@ const home = ({ coursesList }) => {
                 </div>
             </div>
             <div>
-                <Heading2>Courses List</Heading2>
+                <Heading2>Sedang Populer</Heading2>
                 <div className='grid grid-cols-coursesList gap-5 mt-3'>
                     {keys.length > 0 &&
                         keys.map((item, index) => {
