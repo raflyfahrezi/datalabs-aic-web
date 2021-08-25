@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import { ChatIcon } from '@assets'
-import { Heading1, Paragraph } from '@typography'
+import { Heading1, Heading2, Paragraph } from '@typography'
 import {
     Link,
     TextField,
@@ -79,11 +79,31 @@ const home = ({ coursesList }) => {
                     </CardWrapper>
                 </div>
             </div>
-            {/* <Link href='/chatbot'>
-                <div className='w-20 h-20 fixed bottom-6 right-10 rounded-full grid place-items-center bg-gray-600 shadow-xl cursor-pointer'>
-                    <ChatIcon />
+            <ComponentWrapper>
+                <div>
+                    <div>
+                        <Heading2>Konsultasi</Heading2>
+                    </div>
+                    <div className='grid place-items-center py-10 gap-10'>
+                        <div className='flex flex-col items-center gap-5'>
+                            <ChatIcon color={'text-gray-800'} />
+                            <Paragraph>
+                                Masih bingung dengan karir kamu di Bidang IT ?
+                                Yuk konsultasikan dengan kami
+                            </Paragraph>
+                        </div>
+                        <div>
+                            <Link href='/chatbot'>
+                                <button className='p-4 bg-gray-800 rounded'>
+                                    <Paragraph className='text-white'>
+                                        Mulai sekarang
+                                    </Paragraph>
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
-            </Link> */}
+            </ComponentWrapper>
         </>
     )
 }
