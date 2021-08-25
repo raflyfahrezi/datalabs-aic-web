@@ -21,7 +21,7 @@ const config = {
     },
     plugins: [
         require('tailwind-scrollbar-hide'),
-        require('tailwind-scroll-behavior'),
+        require('tailwind-scroll-behavior')(),
     ],
 }
 
