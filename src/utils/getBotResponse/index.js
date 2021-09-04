@@ -1,6 +1,8 @@
 import axios from 'axios'
 
-const getBotResponse = async ({ chatHistory, pushMessageToHistory }) => {
+const fetchResponse = async ({ path, chatHistory }) => {
+    const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL
+
     const body = new URLSearchParams()
 
     const copyOfChatHistory = [...chatHistory]
@@ -8,10 +10,18 @@ const getBotResponse = async ({ chatHistory, pushMessageToHistory }) => {
 
     body.append('chat', userMessage.message)
 
-    const { data } = await axios.post(
-        'https://chatbot-datalabs.et.r.appspot.com/',
-        body
-    )
+    const { data } = await axios.post(`${BASE_URL}/${path ?? ''}`, body)
+
+    return data
+}
+
+const getBotResponse = async ({
+    chatType,
+    chatHistory,
+    setChatType,
+    pushMessageToHistory,
+}) => {
+    const data = await fetchResponse({ chatHistory })
 
     pushMessageToHistory({ type: 'bot', message: data.res })
 }
