@@ -1,9 +1,9 @@
-import axios from 'axios'
 import React, { useRef, useState, useEffect } from 'react'
 
 import { SendIcon } from '@assets'
-import { TextField, ComponentWrapper } from '@components'
 import { Heading1 } from '@typography'
+import { getBotResponse } from '@utils'
+import { TextField, ComponentWrapper } from '@components'
 
 import ChatBox from './box'
 
@@ -54,19 +54,10 @@ const chatbot = () => {
         }
 
         try {
-            const body = new URLSearchParams()
-
-            const copyOfChatHistory = [...chatHistory]
-            const userMessage = copyOfChatHistory.pop()
-
-            body.append('chat', userMessage.message)
-
-            const { data } = await axios.post(
-                'https://chatbot-datalabs.et.r.appspot.com/',
-                body
-            )
-
-            pushMessageToHistory({ type: 'bot', message: data.res })
+            getBotResponse({
+                chatHistory: chatHistory,
+                pushMessageToHistory: pushMessageToHistory,
+            })
         } catch (e) {
             pushMessageToHistory({
                 type: 'bot',
