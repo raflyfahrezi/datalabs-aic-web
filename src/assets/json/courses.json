@@ -278,5 +278,175 @@
         "course_difficulty": "Advanced",
         "course_students_enrolled": "190k",
         "course_image": "https://www.jojonomic.com/wp-content/uploads/2021/06/machine-learning.png"
+    },
+    {
+        "id": 1,
+        "course_title": "Start your Journey as Sebagai Software Engineer",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 2,
+        "course_title": "Learn Basic of Web Developer",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 3,
+        "course_title": "Become a Great Frontend Web Developer",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 4,
+        "course_title": "Learn About Basic of Frontend Web Developer",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 5,
+        "course_title": "Learn About Expert Level of Frontend Web Developer",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 6,
+        "course_title": "What is HTML ?",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 7,
+        "course_title": "Prettier your Website using CSS",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 8,
+        "course_title": "Javascript To The Bone",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 9,
+        "course_title": "Make your First Server using Node JS",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 10,
+        "course_title": "React JS Fundamentals",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 11,
+        "course_title": "Vue JS Fundamentals",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 12,
+        "course_title": "Express JS Fundamentals",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 13,
+        "course_title": "SQL Basic",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 14,
+        "course_title": "Typescript JS Fundamentals",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 15,
+        "course_title": "Learn about Data Science",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 16,
+        "course_title": "Machine Learning Fundamentals",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
+    },
+    {
+        "id": 17,
+        "course_title": "Android Developer Fundamentals",
+        "course_organization": "Datalabs Course",
+        "course_Certificate_type": "SPECIALIZATION",
+        "course_rating": 4.5,
+        "course_difficulty": "Moderate",
+        "course_students_enrolled": "190k",
+        "course_image": "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/605af28f294ea10001992f71/picture"
     }
 ]
