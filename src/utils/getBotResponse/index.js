@@ -81,7 +81,7 @@ const getBotResponse = async ({
 
             pushMessageToHistory({
                 type: 'bot',
-                message: `${savedResponse.res}. Apakah kamu tertarik untuk untuk berkarir di bidang ${savedResponse.tag}`,
+                message: `${savedResponse.res}. Apakah kamu tertarik untuk untuk berkarir di bidang ${savedResponse.tag2}`,
             })
         }
     } else if (chatContext === 'tanya_bahasa') {
@@ -96,7 +96,7 @@ const getBotResponse = async ({
 
         pushMessageToHistory({
             type: 'bot',
-            message: `${savedResponse.res}. Apakah kamu tertarik untuk untuk berkarir di bidang ${savedResponse.tag}`,
+            message: `${savedResponse.res}. Apakah kamu tertarik untuk untuk berkarir di bidang ${savedResponse.tag2}`,
         })
     } else if (chatContext === 'lengkap') {
         const response = await fetchResponse({
@@ -133,6 +133,8 @@ const getBotResponse = async ({
         const response = await fetchResponse({ chatHistory })
 
         if (response.type === 'karir' && userBackground === '') {
+            console.log(response)
+
             setSavedResponse(response)
 
             setChatContext('tanya_background')
