@@ -36,6 +36,14 @@ const chatbot = () => {
 
     useEffect(async () => {
         if (isFirstRender.current === false) {
+            setTimeout(() => {
+                pushMessageToHistory({
+                    type: 'bot',
+                    message:
+                        'Halo, ada yang bisa RAKA bantu mengenai masalah seputar karir di dunia IT ?',
+                })
+            }, 1000)
+
             isFirstRender.current = true
 
             return
