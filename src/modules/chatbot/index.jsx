@@ -27,8 +27,8 @@ const chatbot = () => {
         setMessage(value)
     }
 
-    const pushMessageToHistory = ({ type, message }) => {
-        const chat = { type, message }
+    const pushMessageToHistory = ({ type, message, courses }) => {
+        const chat = { type, message, courses }
 
         setChatHistory([...chatHistory, { ...chat }])
     }
