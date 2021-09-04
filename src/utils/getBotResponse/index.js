@@ -110,6 +110,7 @@ const getBotResponse = async ({
                 type: 'bot',
                 message:
                     'Okay... Ini course yang sudah RAKA pilihkan untuk kamu',
+                courses: response.course,
             })
         } else if (response.tag === 'tidak') {
             pushMessageToHistory({
