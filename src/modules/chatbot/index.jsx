@@ -74,7 +74,7 @@ const chatbot = () => {
     return (
         <ComponentWrapper>
             <div className='text-center pb-6 pt-8'>
-                <Heading1>Konsultasikan Karir mu disini</Heading1>
+                <Heading1>RAKA (Robot Analisis Karir IT)</Heading1>
             </div>
             <div className='w-full grid grid-rows-pageWrapper pt-4'>
                 <div
