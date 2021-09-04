@@ -12,6 +12,7 @@ const chatbot = () => {
     const isFirstRender = useRef(false)
 
     const [message, setMessage] = useState('')
+    const [chatType, setChatType] = useState(null)
     const [chatHistory, setChatHistory] = useState([])
     const [isWaitingResponse, setIsWaitingResponse] = useState(false)
 
@@ -55,7 +56,9 @@ const chatbot = () => {
 
         try {
             getBotResponse({
+                chatType: chatType,
                 chatHistory: chatHistory,
+                setChatType: setChatType,
                 pushMessageToHistory: pushMessageToHistory,
             })
         } catch (e) {
