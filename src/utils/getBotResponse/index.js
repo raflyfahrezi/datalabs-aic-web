@@ -18,7 +18,20 @@ const fetchResponse = async ({ path, chatHistory }) => {
 const getBotResponse = async ({
     chatType,
     chatHistory,
+    chatContext,
+    userHaveCode,
+    userLanguage,
+    userBackground,
+
     setChatType,
+    setChatContext,
+    setUserHaveCode,
+    setUserLanguage,
+    setUserBackground,
+
+    savedResponse,
+    setSavedResponse,
+
     pushMessageToHistory,
 }) => {
     const data = await fetchResponse({ chatHistory })
