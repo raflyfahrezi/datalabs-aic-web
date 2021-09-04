@@ -34,6 +34,18 @@ const getBotResponse = async ({
 
     pushMessageToHistory,
 }) => {
+    if (chatContext === 'tanya_background') {
+        //
+    } else if (chatContext === 'tanya_pernah_ngoding') {
+        //
+    } else if (chatContext === 'tanya_bahasa') {
+        //
+    } else if (chatContext === 'lengkap') {
+        //
+    } else {
+        //
+    }
+
     const data = await fetchResponse({ chatHistory })
 
     pushMessageToHistory({ type: 'bot', message: data.res })
