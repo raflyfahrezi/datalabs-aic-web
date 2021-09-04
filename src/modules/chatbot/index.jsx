@@ -1,9 +1,9 @@
-import axios from 'axios'
 import React, { useRef, useState, useEffect } from 'react'
 
 import { SendIcon } from '@assets'
-import { TextField, ComponentWrapper } from '@components'
 import { Heading1 } from '@typography'
+import { getBotResponse } from '@utils'
+import { TextField, ComponentWrapper } from '@components'
 
 import ChatBox from './box'
 
@@ -12,6 +12,7 @@ const chatbot = () => {
     const isFirstRender = useRef(false)
 
     const [message, setMessage] = useState('')
+    const [chatType, setChatType] = useState(null)
     const [chatHistory, setChatHistory] = useState([])
     const [isWaitingResponse, setIsWaitingResponse] = useState(false)
 
@@ -36,6 +37,14 @@ const chatbot = () => {
 
     useEffect(async () => {
         if (isFirstRender.current === false) {
+            setTimeout(() => {
+                pushMessageToHistory({
+                    type: 'bot',
+                    message:
+                        'Halo, ada yang bisa RAKA bantu mengenai masalah seputar karir di dunia IT ?',
+                })
+            }, 1000)
+
             isFirstRender.current = true
 
             return
@@ -46,19 +55,12 @@ const chatbot = () => {
         }
 
         try {
-            const body = new URLSearchParams()
-
-            const copyOfChatHistory = [...chatHistory]
-            const userMessage = copyOfChatHistory.pop()
-
-            body.append('chat', userMessage.message)
-
-            const { data } = await axios.post(
-                'https://chatbot-datalabs.et.r.appspot.com/',
-                body
-            )
-
-            pushMessageToHistory({ type: 'bot', message: data.res })
+            getBotResponse({
+                chatType: chatType,
+                chatHistory: chatHistory,
+                setChatType: setChatType,
+                pushMessageToHistory: pushMessageToHistory,
+            })
         } catch (e) {
             pushMessageToHistory({
                 type: 'bot',
@@ -74,7 +76,7 @@ const chatbot = () => {
     return (
         <ComponentWrapper>
             <div className='text-center pb-6 pt-8'>
-                <Heading1>Konsultasikan Karir mu disini</Heading1>
+                <Heading1>RAKA (Robot Analisis Karir IT)</Heading1>
             </div>
             <div className='w-full grid grid-rows-pageWrapper pt-4'>
                 <div

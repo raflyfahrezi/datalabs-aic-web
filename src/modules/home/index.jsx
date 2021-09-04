@@ -93,7 +93,8 @@ const home = ({ coursesList }) => {
                             <ChatIcon color={'text-gray-800'} size='100' />
                             <Paragraph>
                                 Masih bingung dengan karir kamu di Bidang IT ?
-                                Yuk konsultasikan dengan kami
+                                Yuk konsultasikan dengan RAKA (Robot Analisis
+                                Karir IT)
                             </Paragraph>
                         </div>
                         <div>
