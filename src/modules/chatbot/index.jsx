@@ -14,6 +14,11 @@ const chatbot = () => {
     const [message, setMessage] = useState('')
     const [chatType, setChatType] = useState(null)
     const [chatHistory, setChatHistory] = useState([])
+    const [chatContext, setChatContext] = useState(null)
+    const [userLanguage, setUserLanguage] = useState('')
+    const [userHaveCode, setUserHaveCode] = useState(false)
+    const [userBackground, setUserBackground] = useState('')
+    const [savedResponse, setSavedResponse] = useState(null)
     const [isWaitingResponse, setIsWaitingResponse] = useState(false)
 
     const messageChangeHandler = (e) => {
@@ -57,8 +62,18 @@ const chatbot = () => {
         try {
             getBotResponse({
                 chatType: chatType,
+                chatContext: chatContext,
                 chatHistory: chatHistory,
+                userHaveCode: userHaveCode,
+                userLanguage: userLanguage,
+                userBackground: userBackground,
+                savedResponse: savedResponse,
                 setChatType: setChatType,
+                setChatContext: setChatContext,
+                setUserHaveCode: setUserHaveCode,
+                setUserLanguage: setUserLanguage,
+                setUserBackground: setUserBackground,
+                setSavedResponse: setSavedResponse,
                 pushMessageToHistory: pushMessageToHistory,
             })
         } catch (e) {
